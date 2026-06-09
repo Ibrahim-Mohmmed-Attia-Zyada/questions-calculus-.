@@ -109,6 +109,7 @@
             max-width: 1200px;
             width: 100%;
             padding: 0 20px;
+            margin-bottom: 50px;
             animation: fadeInUp 0.8s ease 0.4s both;
         }
 
@@ -280,6 +281,18 @@
             color: #fcd34d;
         }
 
+        /* Extra Card */
+        .card-extra {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(56, 189, 248, 0.1));
+            border: 2px dashed rgba(16, 185, 129, 0.5);
+        }
+
+        .card-extra:hover {
+            border-color: #10b981;
+            box-shadow: 0 20px 50px rgba(16, 185, 129, 0.3);
+        }
+
         /* Animations */
         @keyframes fadeInDown {
             from {
@@ -381,17 +394,17 @@
             <div class="divider"></div>
         </div>
 
-         <div class="description-box">
-     <p>
-        <span class="highlight">ده رابط لأسئلة</span> وهي عبارة عن 
-        <span class="highlight">اختيار من متعدد عشان مخك ميتشتتش في السؤال</span> 
-        والمطلوب منك بعد الدخول 
-        <span class="highlight">تروح جايب ورقة وقلم وتحل كل سؤال لوحده</span> 
-        بتركيز وهدوء. استمتع بالرحلة! 💪
-    </p>
-</div>
+        <!-- Description Box -->
+        <div class="description-box">
+            <p>
+                <span class="highlight">ده رابط لأسئلة</span> وهي عبارة عن 
+                <span class="highlight">اختيار من متعدد عشان مخك ميتشتتش في السؤال</span> 
+                والمطلوب منك بعد الدخول 
+                <span class="highlight">تروح جايب ورقة وقلم وتحل كل سؤال لوحده</span> 
+                بتركيز وهدوء. استمتع بالرحلة! 💪
+            </p>
+        </div>
 
- 
         <!-- Cards Grid -->
         <div class="cards-grid">
             <!-- Part 1 -->
@@ -441,24 +454,24 @@
                 <div class="question-count">35 سؤال</div>
                 <a href="https://gemini.google.com/share/7e71ab7c85be" class="card-button">ابدأ الآن →</a>
             </div>
-        </div>
-        <hr>
-         <div class="card">
+
+            <!-- Extra Card -->
+            <div class="card card-extra">
                 <div class="card-number">♾️</div>
-                <h2>  ملف موجود فيه حل اسئلة    </h2>
-                <div class="question-count">الاسئلة كثيرة </div>
+                <h2>ملف موجود فيه حل أسئلة</h2>
+                <p class="subtitle-card">موارد إضافية</p>
+                <div class="question-count">الأسئلة كثيرة جداً</div>
                 <a href="https://drive.google.com/file/d/13oTutX6uhmxWaEW4miP2g9n_v5svzBEc/view?usp=sharing" class="card-button">ابدأ الآن →</a>
             </div>
         </div>
-    <br>
-    
+
         <!-- Footer -->
         <div class="footer">
             <p><span class="emoji">✨</span> استعد بقوة لاختبارك <span class="emoji">✨</span></p>
             
             <!-- Special Message -->
-             <div class="special-message">
-                <p>موقع أبو زيادة جابلك المفيد.. أسئلة التفاضل بكرةباذن الله  مفيهاش تجديد<span class="emoji">😂</span></p>
+            <div class="special-message">
+                <p>موقع أبو زيادة جابلك المفيد.. أسئلة التفاضل بكرة بإذن الله مفيهاش تجديد<span class="emoji">😂</span></p>
             </div>
             
             <p style="margin-top: 20px; font-size: 0.85rem;">المهندس إبراهيم زيادة © 2026</p>
